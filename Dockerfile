@@ -15,7 +15,7 @@ COPY --from=builder /app  /app
 EXPOSE 3000
 ENV PORT=3000
 
-CMD ["node", "server.js"]
+CMD ["node", "index.js"]
 
 
 
